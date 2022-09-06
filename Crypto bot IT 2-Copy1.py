@@ -22,11 +22,11 @@ from kucoin.client import Client
 # In[3]:
 
 
-client = Client('5b63c73008d8b104b0add6b0', 'd239ffe0-0120-49eb-9a85-04e712244f47')
-# client = Client('5b7c872808d8b15529c035c3', 'fc3810e5-462d-413b-9a88-aac40203f8cc')
+client = Client()
+# client = Client()
 
-bclient = BinanceClient('wZUkR3OrwI953kvURKvRXiwTT41xT0Qsh1G7UfB6rz5kbGM0t9qspLAYaUCpfk7z', 'ybvMtTm4PeOGT0bJ5CrQugI5Wpdi2OcvaIoB0wAD462lekazGP0wRirDXL5kIbJM')
-# bclient = BinanceClient('EDSFRPjwir0HhT4oZhCUHace2wIVxtqKpmdtpjla47Dxlp07WRoRCAVVrtKjEXso', 'V6JY4yWcPbhMleYUWacgItMaECdxY0TcDW1mD3SZZje8pwYFepnjlzRcUabCwQxX')
+bclient = BinanceClient()
+# bclient = BinanceClient()
 
 
 # In[4]:
